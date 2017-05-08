@@ -9,7 +9,7 @@ Script features :
     - Clean Pacman cache
     - Remove unused packages
     - Update mlocate database
-    - use rmshit to delete configuration files, temporary data and logs into $HOME
+    - use rmshit.py to delete configuration files, temporary data and logs into $HOME
     
     
-This script use https://github.com/trapd00r/rmshit wich delete configuration files, temporary data and logs into $HOME
+This script use https://github.com/lahwaacz/Scripts/blob/master/rmshit.py which delete configuration files, temporary data and logs into $HOME
