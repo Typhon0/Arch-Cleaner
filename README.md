@@ -1,6 +1,6 @@
 # Arch Cleaner
 
-Script to clean Arch Linux
+Shell script to clean Arch Linux
 
 Script features :
 
