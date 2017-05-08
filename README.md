@@ -3,6 +3,7 @@
 Script to clean Arch Linux
 
 Script features :
+
     - Sync Database
     - Optimize Pacman's Mirror
     - Clean Pacman cache
