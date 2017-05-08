@@ -68,5 +68,13 @@ sudo updatedb
 echo ''
 echo '====== rmshit ====='
 echo ''
+if [  -f rmshit.py ]; then
+   python rmshit.py 
+else
+echo "rmshit.py not found!"
+echo 'Downloading....'
+echo ''
+sudo curl -O https://raw.githubusercontent.com/lahwaacz/Scripts/master/rmshit.py
+   python rmshit.py 
+fi
 
-sudo python <(curl https://raw.githubusercontent.com/lahwaacz/Scripts/master/rmshit.py)
