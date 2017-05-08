@@ -69,10 +69,4 @@ echo ''
 echo '====== rmshit ====='
 echo ''
 
-if [  -f rmshit.py ]; then
-   python rmshit.py 
-else
-echo "rmshit.py not found!"
-fi
-
-
+sudo python <(curl https://raw.githubusercontent.com/lahwaacz/Scripts/master/rmshit.py)
